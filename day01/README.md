@@ -14,7 +14,7 @@ The newly-improved calibration document consists of lines of text; each line ori
 
 For example:
 
-```
+```txt
 1abc2
 pqr3stu8vwx
 a1b2c3d4e5f
@@ -31,6 +31,7 @@ Your calculation isn't quite right. It looks like some of the digits are actuall
 
 Equipped with this new information, you now need to find the real first and last digit on each line. For example:
 
+```txt
 two1nine
 eightwothree
 abcone2threexyz
@@ -38,6 +39,7 @@ xtwone3four
 4nineeightseven2
 zoneight234
 7pqrstsixteen
+```
 
 In this example, the calibration values are 29, 83, 13, 24, 42, 14, and 76. Adding these together produces 281.
 
